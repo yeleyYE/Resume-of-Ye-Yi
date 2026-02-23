@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "company": "北京云圣智能科技-有限责任公司",
+    "period": "2025.06 - 2026.02",
+    "role": "解决方案工程师",
+    "location": "深圳",
+    "images": [
+      "https://i.postimg.cc/TP7jKHkm/1ed7f4de388707b7219553a79d8b29fe.png",
+      "https://i.postimg.cc/7Ls15QB3/ying-jie-sheng-zhuan-zheng-shu-zhi-jie-jue-fang-an-bu-ye-yi-pages-to-jpg-0001.jpg",
+      "https://i.postimg.cc/zftwyPdT/ying-jie-sheng-zhuan-zheng-shu-zhi-jie-jue-fang-an-bu-ye-yi-pages-to-jpg-0002.jpg",
+      "https://i.postimg.cc/25cd1XHW/ying-jie-sheng-zhuan-zheng-shu-zhi-jie-jue-fang-an-bu-ye-yi-pages-to-jpg-0003.jpg"
+    ],
+    "description": "核心工作",
+    "details": [
+      {
+        "title": "创新性解决方案",
+        "content": "输出无人机行业创新解决方案，覆盖燃气管网、智慧园区、智慧校园、政企赋能等大行业，方案总复用次数超过30次。"
+      },
+      {
+        "title": "新产品体系化搭建",
+        "content": "软件端独立负责低空监管与服务平台的市场洞察与业务模块设计，完成市场需求梳理、核心功能拆解及内部培训与对外宣介材料输出；硬件端核心参与物流机场产品业务场景搭建，协同推进产品能力与应用场景的体系化落地。"
+      },
+      {
+        "title": "客户交流与需求洞察",
+        "content": "参与甲方项目汇报、城市行业委办局需求调研及样板间客户接待共计50余次，前置理解客户真实需求与决策关注点，并将其转化为可落地的方案约束条件与表达重点，支撑方案内容定型以及项目持续推进。"
+      },
+      {
+        "title": "解决方案材料输出与复用",
+        "content": "从项目建设方案、可研材料到落地项目申报材料，持续复盘沉淀至解决方案6大核心能力材料库，提升整体交付能力与材料复用价值。"
+      }
+    ],
+    "benchmarkCase": {
+      "name": "深圳市盐田区空地一体化城市综合治理项目",
+      "scale": "项目规模约 2000 万元",
+      "items": [
+        {
+          "title": "需求调研与技术边界锁定",
+          "content": "作为项目售前阶段跟进人，面向16个委办局的多目标治理场景，梳理“业务需求—治理场景—覆盖范围—服务对象—业务数据流转”的结构化需求输入，沉淀47类核心场景，梳理需求条目118 条，提前锁定技术与实施边界，降低方案反复与落地风险。"
+        },
+        {
+          "title": "方案推进与投标支持",
+          "content": "负责建设方案、初步设计方案及投标文件技术部分撰写，累计输出多版阶段性方案与汇报材料，在商务模式与推进路径频繁调整情况下，支撑项目稳定推进并成功中标。"
+        },
+        {
+          "title": "项目运营与新场景识别",
+          "content": "持续对接委办局新增需求并推动研发侧细化落地，引入运营视角输出巡检路径与巡检周期规划；在盐田港识别港口装备巡检新场景，推动潜在项目机会延展。"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "company": "杭州海康威视数字技术-股份有限公司",
+    "period": "2024.11 - 2025.03",
+    "role": "产品售前工程师-实习生",
+    "location": "杭州",
+    "images": [
+      "https://i.postimg.cc/pXDhn101/xin-jian-Microsoft-Power-Point-yan-shi-wen-gao-page-0001.jpg",
+      "https://i.postimg.cc/x1nkGyh2/新建_Microsoft_Power_Point_演示文稿_page_0002.jpg",
+      "https://i.postimg.cc/pLR9QY4R/新建_Microsoft_Power_Point_演示文稿_page_0003.jpg",
+      "https://i.postimg.cc/T3fyjqFR/新建_Microsoft_Power_Point_演示文稿_page_0004.jpg"
+    ],
+    "description": "核心工作",
+    "details": [
+      {
+        "title": "营销体系搭建",
+        "content": "0-1搭建全球产品资料库，通过结构化共享文档与可视化产品导航图，统一产品信息入口，显著提升销售团队获取产品资料的效率，助力销售目标达成。"
+      },
+      {
+        "title": "推广资料制作",
+        "content": "围绕产品核心卖点，制作产品方案、宣传物料、产品发布 PPT 及一指禅等外部宣传与内部赋能材料，强化产品价值传达，提升市场影响力与内部支持效率。"
+      },
+      {
+        "title": "产品市场推广",
+        "content": "围绕市场推进，开展销售产品培训与赋能，组织产品演示会，优化展示内容与演示流程，持续提升产品呈现效果与客户体验。"
+      }
+    ]
+  }
+]
