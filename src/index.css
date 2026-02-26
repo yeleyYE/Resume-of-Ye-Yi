@@ -1,21 +1,55 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bone: #E0D7C7;
-  --color-lion: #BE9F89;
-  --color-light-blue: #98C3C7;
-  --color-moonstone: #5390A0;
-  --color-gunmetal: #1B2A31;
+  /* Design Palette */
+  --color-design-blue: #B8C1D1;
+  --color-design-blue-light: #D1D9E6;
+  --color-design-taupe: #9B8A7E;
+  --color-design-cream: #F2F0E9;
+  --color-design-sage: #5E6955;
+  --color-design-sage-light: #A3B18A;
+  --color-design-beige: #D9C5B2;
+  --color-design-olive-shadow: rgba(94, 105, 85, 0.15);
   
-  /* Vibrant Accents */
-  --color-apple-blue: #5390A0; /* Map apple-blue to moonstone for consistency */
-  --color-apple-green: #98C3C7;
-  --color-apple-orange: #BE9F89;
-  --color-apple-indigo: #1B2A31;
+  /* Font Palette - Increased Richness & Harmony */
+  --color-text-charcoal: #322E2B;
+  --color-text-forest: #2B3428;
+  --color-text-slate: #434B5D;
+  --color-text-brown: #544A43;
+  --color-text-deep: #1F2421;
+  
+  /* Rich Mid-tones */
+  --color-text-ochre: #B48A32;
+  --color-text-clay: #A6634B;
+  --color-text-teal: #3D6B6B;
+  
+  /* Lighter variants for secondary text */
+  --color-text-blue-light: #7A8BA8;
+  --color-text-sage-light: #7E8C73;
+  --color-text-taupe-light: #9B8A7E;
 
-  --color-design-bg: #E0D7C7; /* Use Bone as background */
-  --color-font-primary: #1B2A31; /* Use Gunmetal as primary font */
-  --color-font-secondary: #BE9F89; /* Use Lion as secondary font */
+  /* Legacy Mapping for compatibility */
+  --color-gold-primary: #9B8A7E;
+  --color-gold-secondary: #D9C5B2;
+  --color-navy-deep: #434B5D;
+  --color-slate-muted: #5E6955;
+  --color-charcoal: #322E2B;
+  --color-silver: #B8C1D1;
+  
+  --color-bone: #F2F0E9;
+  --color-lion: #9B8A7E;
+  --color-light-blue: #B8C1D1;
+  --color-moonstone: #5E6955;
+  --color-gunmetal: #1F2421;
+
+  --color-apple-blue: #434B5D;
+  --color-apple-green: #5E6955;
+  --color-apple-orange: #9B8A7E;
+  --color-apple-indigo: #322E2B;
+
+  --color-design-bg: #F2F0E9;
+  --color-font-primary: #322E2B;
+  --color-font-secondary: #544A43;
 
   --font-sans: "SF Pro Display", "SF Pro Text", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
@@ -37,8 +71,11 @@
 }
 
 .glass {
-  @apply bg-white/80 backdrop-blur-md border border-white/40;
-  box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4), 0 4px 24px -1px rgba(0, 0, 0, 0.04);
+  @apply bg-white/85 backdrop-blur-md border border-white/50;
+  box-shadow: 
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.5), 
+    0 10px 30px -5px var(--color-design-olive-shadow),
+    0 4px 10px -2px rgba(0, 0, 0, 0.02);
 }
 
 .glass-dark {
@@ -59,7 +96,7 @@
 }
 
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-gunmetal via-moonstone to-lion;
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-text-slate via-text-sage-light to-text-brown;
 }
 
 .noise {
