@@ -371,7 +371,7 @@ export default function App() {
                               {detail.title}
                             </h4>
                             <p 
-                              className="text-font-primary leading-relaxed text-sm md:text-base font-medium"
+                              className="text-text-slate leading-relaxed text-sm md:text-base font-medium"
                               dangerouslySetInnerHTML={{ __html: detail.content }}
                             />
                           </div>
@@ -428,7 +428,7 @@ export default function App() {
                               {item.title}
                             </h4>
                             <p 
-                              className="text-font-primary leading-relaxed text-sm md:text-base font-medium"
+                              className="text-text-slate leading-relaxed text-sm md:text-base font-medium"
                               dangerouslySetInnerHTML={{ __html: item.content }}
                             />
                           </div>
