@@ -23,6 +23,12 @@
   --color-text-clay: #A6634B;
   --color-text-teal: #3D6B6B;
   
+  /* Vibrant Accents */
+  --color-accent-violet: #6366F1;
+  --color-accent-amber: #F59E0B;
+  --color-accent-emerald: #10B981;
+  --color-accent-rose: #F43F5E;
+  
   /* Lighter variants for secondary text */
   --color-text-blue-light: #7A8BA8;
   --color-text-sage-light: #7E8C73;
@@ -96,7 +102,15 @@
 }
 
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-text-slate via-text-sage-light to-text-brown;
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-violet via-text-slate to-accent-emerald;
+}
+
+.gradient-text-ai {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-violet via-text-teal to-accent-emerald;
+}
+
+.gradient-text-award {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-amber via-text-ochre to-clay;
 }
 
 .noise {

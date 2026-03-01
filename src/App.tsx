@@ -235,23 +235,31 @@ export default function App() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4, duration: 0.8 }}
               >
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-4">
                   <p className="font-bold text-text-slate text-3xl tracking-tight">
                     2001.03.07
                   </p>
-                  <p className="font-medium text-text-slate/80">
-                    南安普顿 university · 移动通信专业（一等学位）
-                  </p>
+                  <div className="space-y-2">
+                    <p className="font-medium text-text-slate/90">
+                      南安普顿大学 (QS 前 100) · 移动通信与智能网络 · 硕士 (TOP 5%)
+                    </p>
+                  </div>
                 </div>
                 
                 <div className="space-y-6 pt-6 border-t border-font-primary/5">
                   <div className="space-y-4">
                     <div className="flex items-center gap-3 text-xl font-bold text-text-ochre uppercase tracking-widest">
                       <Award className="w-6 h-6 text-text-ochre" />
-                      专业能力
+                      竞赛与英语
                     </div>
                     <div className="flex flex-wrap gap-3">
-                      {['亚太数学建模竞赛二等奖', '美国大学生数学建模竞赛S奖', '华为人工智能初级工程师HCIA-AI认证'].map((skill) => (
+                      {[
+                        '亚太数学建模竞赛二等奖', 
+                        '美国大学生数学建模竞赛S奖', 
+                        '华为人工智能初级工程师HCIA-AI认证',
+                        '全国大学生英语竞赛二等奖',
+                        '雅思总分6.5'
+                      ].map((skill) => (
                         <span key={skill} className="px-4 py-2 rounded-xl bg-white/80 border border-font-primary/5 text-base font-medium text-font-primary apple-shadow hover:scale-105 transition-transform cursor-default">
                           {skill}
                         </span>
@@ -261,11 +269,15 @@ export default function App() {
 
                   <div className="space-y-4">
                     <div className="flex items-center gap-3 text-xl font-bold text-text-teal uppercase tracking-widest">
-                      <Globe className="w-6 h-6 text-text-teal" />
-                      英语能力
+                      <Zap className="w-6 h-6 text-text-teal" />
+                      AI 能力
                     </div>
                     <div className="flex flex-wrap gap-3">
-                      {['全国大学生英语竞赛二等奖', '雅思总分6.5'].map((skill) => (
+                      {[
+                        '精通 Cursor 等 AI 辅助开发与编排工具',
+                        '深度使用 Gemini、Google AI Studio 生态',
+                        '输出可视化 HTML Demo 支撑方案验证'
+                      ].map((skill) => (
                         <span key={skill} className="px-4 py-2 rounded-xl bg-white/80 border border-font-primary/5 text-base font-medium text-font-primary apple-shadow hover:scale-105 transition-transform cursor-default">
                           {skill}
                         </span>
@@ -355,12 +367,13 @@ export default function App() {
                             <Icon className="w-6 h-6 text-text-sage-light" />
                           </div>
                           <div className="space-y-2">
-                            <h4 className="text-lg font-bold text-font-primary group-hover:text-text-sage-light transition-colors">
+                            <h4 className="text-lg font-bold text-text-teal group-hover:text-text-teal/80 transition-colors">
                               {detail.title}
                             </h4>
-                            <p className="text-text-taupe-light leading-relaxed text-sm md:text-base opacity-90">
-                              {detail.content}
-                            </p>
+                            <p 
+                              className="text-font-primary leading-relaxed text-sm md:text-base font-medium"
+                              dangerouslySetInnerHTML={{ __html: detail.content }}
+                            />
                           </div>
                         </div>
                       );
@@ -411,13 +424,14 @@ export default function App() {
                             <Icon className="w-6 h-6 text-text-clay" />
                           </div>
                           <div className="space-y-2">
-                            <h4 className="text-lg font-bold text-font-primary group-hover:text-text-clay transition-colors">
+                            <h4 className="text-lg font-bold text-text-clay group-hover:text-text-clay/80 transition-colors">
                               {item.title}
                             </h4>
-                                <p className="text-text-taupe-light leading-relaxed text-sm md:text-base opacity-90">
-                                  {item.content}
-                                </p>
-                              </div>
+                            <p 
+                              className="text-font-primary leading-relaxed text-sm md:text-base font-medium"
+                              dangerouslySetInnerHTML={{ __html: item.content }}
+                            />
+                          </div>
                             </div>
                           );
                         })}
