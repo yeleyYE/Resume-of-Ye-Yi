@@ -392,14 +392,14 @@ export default function App() {
                       viewport={{ once: true }}
                       className="space-y-4"
                     >
-                      <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-text-clay/10 text-text-clay text-base font-bold uppercase tracking-widest">
+                      <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-500/10 text-slate-500 text-base font-bold uppercase tracking-widest">
                         标杆案例
                       </div>
                       <div className="space-y-2">
                         <h3 className="text-3xl font-bold text-font-primary leading-tight tracking-tight">
                           {exp.benchmarkCase.name}
                         </h3>
-                        <p className="text-lg font-medium text-text-clay">
+                        <p className="text-lg font-medium text-slate-500">
                           {exp.benchmarkCase.scale}
                         </p>
                       </div>
@@ -407,10 +407,10 @@ export default function App() {
                   </div>
 
                   <div className="md:col-span-8">
-                    <div className="glass p-6 md:p-10 rounded-[32px] apple-shadow space-y-10 border-l-8 border-text-clay/40 experience-card border-y border-r border-white/40">
-                      <div className="flex items-center justify-between border-b border-text-clay/10 pb-6">
+                    <div className="glass p-6 md:p-10 rounded-[32px] apple-shadow space-y-10 border-l-8 border-slate-500/40 experience-card border-y border-r border-white/40">
+                      <div className="flex items-center justify-between border-b border-slate-500/10 pb-6">
                         <div className="flex items-center gap-3 text-2xl font-bold text-font-primary">
-                          <Target className="w-7 h-7 text-text-clay" />
+                          <Target className="w-7 h-7 text-slate-500" />
                           标杆案例
                         </div>
                       </div>
@@ -420,11 +420,11 @@ export default function App() {
                           const Icon = icons[i % icons.length];
                           return (
                             <div key={i} className="group flex gap-6">
-                          <div className="flex-shrink-0 w-12 h-12 rounded-2xl bg-text-clay/5 flex items-center justify-center group-hover:bg-text-clay/10 transition-all duration-300 group-hover:scale-110">
-                            <Icon className="w-6 h-6 text-text-clay" />
+                          <div className="flex-shrink-0 w-12 h-12 rounded-2xl bg-slate-500/5 flex items-center justify-center group-hover:bg-slate-500/10 transition-all duration-300 group-hover:scale-110">
+                            <Icon className="w-6 h-6 text-slate-500" />
                           </div>
                           <div className="space-y-2">
-                            <h4 className="text-lg font-bold text-text-clay group-hover:text-text-clay/80 transition-colors">
+                            <h4 className="text-lg font-bold text-slate-500 group-hover:text-slate-500/80 transition-colors">
                               {item.title}
                             </h4>
                             <p 
